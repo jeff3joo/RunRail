@@ -6,6 +6,7 @@ public class CameraFollower : MonoBehaviour
     Vector3 camOffset;
     void Start()
     {
+        //Distance between Cam and player
         camOffset = transform.position - player.position;
     }
 
